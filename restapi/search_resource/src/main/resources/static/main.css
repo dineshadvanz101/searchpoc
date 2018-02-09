@@ -1,0 +1,48 @@
+body{background-color:#fff; font-family: 'Montserrat', sans-serif;}
+  
+  #app{width:80%; margin-left:auto; margin-right:auto; background:#fff;}
+  .active{
+    color:#1a81c4;
+  }
+  .company{border:1px solid #d3d3d3; padding:10px; width:95%; height:; background:#fff;}
+  .company img{width:100%; height:;}
+  .company-text{margin-bottom:10px; margin-top:6px; text-align:left; text-transform: capitalize; font-family: 'Lato', sans-serif; font-weight:bold; font-size:15px;}
+  img {filter: grayscale(100%); }
+  .alfabet{margin-left:2%; cursor: pointer; font-size:20px; font-family: 'Montserrat', sans-serif;}
+  .alfabet2{margin-left:2%; font-size:20px; color:#c9c9c9; font-family: 'Montserrat', sans-serif;}
+  .textbox{border:1px solid #1a83c5; border-radius:50px; padding-left:15px;}
+   
+   h1{font-family: 'Open Sans', sans-serif;}
+
+   .theme--light .input-group input{color: #1a83c5;}
+   .input-group__input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+    min-width: 0;
+    min-height: 30px;
+    border-radius: 25px;
+    border: 1px solid #1a83c5;
+    color: #1a83c5;
+    padding: 10px 20px;
+	height: 50px;
+}
+
+	.input-group__icon-cb {border: 1px solid #1a83c5;
+    border-radius: 200px;
+    width: 26px;}
+
+	.input-group__details{display: none;}
+	
+	.layout{margin-top:20px!important;}
+	
+	.content{font-family: 'Open Sans', sans-serif;}
+   
+   .input-group--text-field label {
+    position: absolute;
+    top: 29px;
+    left: 22px;
+}
