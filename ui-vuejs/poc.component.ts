@@ -62,8 +62,13 @@ const app = new Vue ({
     search_alphabetically(value,index){
       this.alphabet = value;
       this.title_search='';
-      if(value == 'ALL')
+      if(value == 'ALL'){
         value = '';
+		this.title_search='';
+	  }
+	  if(value != 'ALL'){
+		this.title_search= value;
+	  }
 
       if(value != '' && this.selected != '' )
         if(this.selected == 'All')
